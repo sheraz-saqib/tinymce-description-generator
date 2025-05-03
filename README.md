@@ -28,11 +28,11 @@ import 'tinymce/plugins/lists';
 // TinyMCE initialize karne ke liye
 window.addEventListener('DOMContentLoaded', () => {
     tinymce.init({
-        selector: 'textarea#myeditorinstance', // Aapka textarea ID
-        plugins: 'code table lists', // Plugins jo aap use karna chahte hain
+        selector: 'textarea#myeditorinstance', 
+        plugins: 'code table lists', 
         toolbar: 'undo redo | blocks | bold italic | alignleft aligncenter alignright | indent outdent | bullist numlist | code | table', // Toolbar options
-        skin: false, // Custom skin disable karne ke liye (optional)
-        content_css: false // Custom content CSS disable karne ke liye (optional)
+        skin: false, 
+        content_css: false 
     });
 });
 ```
